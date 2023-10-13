@@ -1,29 +1,44 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Instagram Clone</title>
-  </head>
-  <body>
-<nav class="border-b bg-white py-2">
-  <div>
-    <!-- logo -->
 
-<img src="./img/Instagram.png" alt="Instagram_logo_name">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Clone</title>
+</head>
 
-    <!-- search -->
+<body>
 
+  <!-- navbar -->
+  <nav class="border-b bg-white py-2">
 
-    <!-- buttons -->
+    <div class="flex justify-around">
 
+      <!-- logo -->
 
+      <img src="./img/instagram.png" class="h-16" alt="Instagram_logo_name">
 
-  </div>
-</nav>
-    
-      <script type="module" src="/src/main.jsx"></script>
-  </body>
+      <!-- search -->
+      <div class="text-gray-500 relative">
+        <input class="outline-none border focus:hover:border-gray-400 rounded text-center px-4" type="search" name="">
+        <i class="fa fa-search absolute left-0 ml-2 mt-1 "></i>
+      </div>
+
+      <!-- buttons -->
+      <div class="space-x-4 ">
+        <a href="#" class="inline-block bg-blue-500 text-white font-semibold px-2 py-2 rounded text-sm">Log In</a>
+        <a href="#" class="inline-block font-semibold px-2 py-2 text-sm">Sign Up</a>
+
+      </div>
+
+    </div>
+  </nav>
+
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
 </html>
